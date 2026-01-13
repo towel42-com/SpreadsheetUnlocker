@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>resources/scuba-calc.png</file>
-    </qresource>
-</RCC>
