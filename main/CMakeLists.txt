@@ -27,9 +27,7 @@ project(${ROOT_PROJECT})
 include( include.cmake )
 include( ${CMAKE_SOURCE_DIR}/T42-CMakeUtils/QtProject.cmake )
 
-add_executable( ${PROJECT_NAME} WIN32
-                application.rc
-          )
+add_executable( ${PROJECT_NAME} )
 target_sources( ${PROJECT_NAME} PRIVATE ${_PROJECT_DEPENDENCIES} )
 
 if ( NOT DEPLOYQT_EXECUTABLE )
